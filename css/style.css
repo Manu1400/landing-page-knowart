@@ -1,6 +1,6 @@
 /*
 ------------------------------------------------------------------------
-* Template Name    : Brezon | Responsive Bootstrap 4 Landing Template * 
+* Template Name    : Brezon | Responsive Bootstrap 4 Landing Template *
 * Author           : ThemesBoss                                       *
 * Version          : 1.0.0                                            *
 * Created          : July 2018                                        *
@@ -342,7 +342,7 @@ button:focus {
 ============================*/
 
 .home-bg-img {
-    background-image: url(../images/home-bg-2.jpg);
+    background-image: url(../images/pictures/terry_richardson.jpg);
     background-size: cover;
     background-position: center center;
     position: relative;
