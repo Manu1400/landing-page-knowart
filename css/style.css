@@ -66,6 +66,9 @@ button:focus {
     outline: none !important;
     box-shadow: none !important;
 }
+a.btn:focus {
+  background-color: #3e8e41;
+}
 
 ::selection {
     background: rgba(166, 175, 189, 0.3);
@@ -614,6 +617,23 @@ button:focus {
     display: inline-block;
     text-align: center;
     margin-right: 15px;
+}
+
+@keyframes example {
+    0%   {transform: translateX(0px);}
+    25%  {transform: translateX(1px);}
+    50%  {transform: translateX(2px);}
+    75%  {transform: translateX(3px);}
+    100% {transform: translateX(4px);}
+}
+
+.play-btn-white:hover {
+    background: grey;
+}
+.play-btn-white i:hover {
+    background: #3e8e41;
+    animation-name: example;
+    animation-duration: 1s;
 }
 
 .video-btn-white a span {
