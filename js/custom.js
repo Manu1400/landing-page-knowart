@@ -1,6 +1,6 @@
 /*
 ------------------------------------------------------------------------
-* Template Name    : Brezon | Responsive Bootstrap 4 Landing Template * 
+* Template Name    : Brezon | Responsive Bootstrap 4 Landing Template *
 * Author           : ThemesBoss                                       *
 * Version          : 1.0.0                                            *
 * Created          : July 2018                                        *
@@ -40,7 +40,7 @@
     // Scrollspy
     function initScrollspy() {
         $("#navbarCollapse").scrollspy({
-            offset: 70
+            offset: 270
         });
     }
 
@@ -64,7 +64,7 @@
             } else {
                 $('.back_top').fadeOut();
             }
-        }); 
+        });
         $('.back_top').on('click',function(){
             $("html, body").animate({ scrollTop: 0 }, 1000);
             return false;
