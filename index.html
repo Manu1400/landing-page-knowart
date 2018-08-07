@@ -535,7 +535,8 @@
                           -->
                             <div class="mt-4">
                                 <p class="client_review text-muted mb-0 font-italic">
-                                  <iframe width="420" height="315" src="https://www.youtube.com/embed/shNEhFG5_-M"></iframe>
+                                  <!-- can change to https://stackoverflow.com/questions/29640675/possible-to-add-an-onclick-event-to-a-youtube-iframe -->
+                                  <iframe width="420" height="315" src="https://www.youtube.com/embed/shNEhFG5_-M" onclick="console.log('https://www.youtube.com/embed/shNEhFG5_-M');"></iframe>
                                 </p>
                                 <h5 class="client_name mb-0 mt-4 font-weight-bold">Marina Abramovic explained by KnowArt</h5>
                                 <p class="text-custom ml-2 pl-1 mb-0">2018</p>
@@ -830,7 +831,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="text-center">
-                            <h3 class="mb-0 text-capitalize">Get In <span class="font-weight-bold">Tuch</span></h3>
+                            <h3 class="mb-0 text-capitalize">Get In <span class="font-weight-bold">Touch</span></h3>
                             <div class="main-title-border mx-auto"></div>
                             <p class="text-muted sec_subtitle mx-auto mt-2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                         </div>
@@ -844,7 +845,7 @@
                             </div>
                             <div class="mt-2">
                                 <p class="mb-0 font-weight-bold">Call Us On</p>
-                                <p class="text-muted"><a href="tel:+33671576705">+336 71 57 67 05</a></p>
+                                <p class="text-muted"><a href="tel:+33671576705">+33 6 71 57 67 05</a></p>
                             </div>
                         </div>
                         <div class="text-center mt-3">
@@ -863,9 +864,9 @@
                             <div class="mt-2">
                                 <p class="mb-0 font-weight-bold">Visit Office</p>
                                 <p class="text-muted">
-                                  <!-- TODO: add bit.ly ? -->
-                                  <a href="https://www.google.com/maps/place/47%C2%B013'41.6%22N+1%C2%B032'19.9%22W/@47.228209,-1.541044,17z/data=!3m1!4b1!4m6!3m5!1s0x0:0x0!7e2!8m2!3d47.2282088!4d-1.5388502">
-                                    Caserne Mellinet, 44000 Nantes
+                                  <!-- TODO: add bit.ly or tracking ? -->
+                                  <a href="https://www.google.com/maps/place/25+Balderton+St,+Mayfair,+London+W1C+2PH,+Royaume-Uni/@51.5137732,-0.154611,17z/data=!3m1!4b1!4m8!1m2!2m1!1s25A+Balderton+Flats+Brown+Hart+Gardens+Mayfair,+London,+W1K+6TE!3m4!1s0x4876052d5ef1c0d1:0x5769e3006caf8b15!8m2!3d51.5137732!4d-0.152417" lang="en">
+                                    25A Brown Hart Gardens, Mayfair, London, W1K 6TE
                                   </a>
                                   </p>
                             </div>
@@ -970,5 +971,8 @@
 
         <!-- Custom Js   -->
         <script src="js/custom.js"></script>
+
+        <!-- tracking -->
+        <script src="js/mixpanel-snippet.js"></script>
     </body>
 </html>
