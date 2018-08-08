@@ -57,6 +57,7 @@
     }
 
     // Back To Top
+    /*
     function initBackToTop() {
         $(window).on('scroll',function(){
             if ($(this).scrollTop() > 100) {
@@ -70,15 +71,21 @@
             return false;
         });
     }
+    */
 
     function init() {
+      //console.log('initTyped')
+      //var typed = new Typed('#typed', {
+      //  stringsElement: '#typed-strings'
+      //});
+
         initSmoothLink();
         initStickyMenu();
         initScrollspy();
         initMFPVideo();
-        initBackToTop();
+        //initBackToTop();
     }
 
     init();
 
-})(jQuery);
+})(jQuery); //console.error("end")

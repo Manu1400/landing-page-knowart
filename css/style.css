@@ -78,27 +78,6 @@ a.btn:focus {
     background: rgba(166, 175, 189, 0.3);
 }
 
-.back_top {
-    text-align: center;
-    position: fixed;
-    bottom: 15px;
-    height: 35px;
-    width: 35px;
-    background-color: #13ce67;
-    display: none;
-    z-index: 10000;
-    border-radius: 3px;
-    right: 20px;
-    transition: all 0.5s;
-}
-
-.back_top i {
-    color: #fff;
-    line-height: 35px;
-    font-size: 32px;
-    display: block;
-}
-
 /*==========================
         2.HELPER
 ============================*/
