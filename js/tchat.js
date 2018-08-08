@@ -25,7 +25,7 @@
 // https://help.drift.com/article/custom-language/
 drift.config({
   locale: (window.navigator.language || 'en'),
-  welcomeMessageDelay: 3000,
+  //welcomeMessageDelay: 3000,
 })
 // https://drift.helpjuice.com/developer-docs/widget-api
 drift.on('ready',function(api, payload) {
