@@ -580,6 +580,10 @@ body {
     max-width: 430px;
 }
 
+.nav.nav-tabs a.nav-item.nav-link {
+    color: #13ce67;
+}
+
 /*==========================
         10.VIDEO SECTION
 ============================*/
