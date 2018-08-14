@@ -83,8 +83,8 @@ a.btn:focus {
 ============================*/
 
 .section {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     position: relative;
     background-color: #fff;
 }
@@ -764,6 +764,18 @@ body {
 
 .faq_boxes .faq_details h5 {
     font-size: 18px;
+}
+
+.card .btn.btn-link {
+    color: #13ce67;
+}
+
+#accordion .card {
+  border: 0px;
+}
+
+#accordion .card-body {
+  padding-left: 2.5rem;
 }
 
 /*==========================
