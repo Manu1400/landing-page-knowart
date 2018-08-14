@@ -84,6 +84,21 @@
         initScrollspy();
         initMFPVideo();
         //initBackToTop();
+
+        var vid = document.getElementById("myVideo");
+        if (vid != null) {
+            vid.playbackRate = 0.9;
+        }
+
+        jQuery(document).ready(function() {
+           $(".contentBot").click(function() {
+               $(".contentBot").children(".boton").removeClass('selectedBoton');
+               $(this).children(".boton").addClass('selectedBoton');
+               //TweenMax.to($(".contentBox"),0.4,{opacity:0});
+               //TweenMax.to($("#"+$(this).attr("id")+"Item"),0.4,{opacity:1});
+               });
+        });
+
     }
 
     init();
