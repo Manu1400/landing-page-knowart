@@ -102,10 +102,9 @@
                                       <br>Support private collections, museums and institutions by visiting exhibitions,
                                       <br>curated with the artworks you own.</p>
                                     <div class="header_btn">
-                                      <!-- can be used in a iframe -->
-                                        <a href="signup-mailchimp.html" target="_blank" class="btn btn-custom btn-rounded mt-4" style="margin-bottom: 50px;">
+                                        <button type="button" class="btn btn-custom btn-rounded mt-4" data-toggle="modal" data-target="#modalGetStarted" style="margin-bottom: 50px;">
                                           Get started
-                                        </a>
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -845,6 +844,55 @@
         <script src="js/custom.js"></script>
 
         <script src="js/tchat.js"></script>
+
+        <!-- modal -->
+        <div class="modal fade" id="modalGetStarted">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title mb-0 font-weight-bold" id="exampleModalLongTitle">
+                      Sign up to receive our guide:<br>
+                        " First steps into contemporary art investing "<br>
+                        and get noticed when our platform is ready!
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                        </button>
+                </div>
+                <div class="modal-body">
+                  <form method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
+                        action="https://knowart.us19.list-manage.com/subscribe/post?u=7c4550158acf480e1a5e73742&amp;id=d658701597">
+                      <div class="form-group">
+                          <input type="text" class="form-control" name="FNAME" placeholder="First Name" aria-required="true">
+                      </div>
+                      <div class="form-group">
+                          <input type="text" class="form-control" name="LNAME" placeholder="Last Name" aria-required="true">
+                      </div>
+                      <div class="form-group">
+                          <input type="email" class="form-control" name="EMAIL" placeholder="Email" aria-required="true">
+                      </div>
+                      <div id="mce-responses" class="clear">
+                          <div class="response" id="mce-error-response" style="display:none"></div>
+                          <div class="response" id="mce-success-response" style="display:none"></div>
+                      </div>
+                      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                      <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                        <input type="text" name="b_7c4550158acf480e1a5e73742_d658701597" tabindex="-1" value="">
+                      </div>
+                      <div>
+                          <button class="btn btn-custom w-100">Sign Up</button>
+                      </div>
+                      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+                      <script type='text/javascript'>
+                        (function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));
+                        var $mcj = jQuery.noConflict(true);
+                      </script>
+                  </form>
+                </div>
+              </div>
+            </div>
+        </div>
+        <!-- End modal -->
 
         <!-- tracking -->
         <script src="js/mixpanel-snippet.js"></script>
