@@ -525,6 +525,29 @@ body {
     background: rgba(27, 31, 37, 0.8);
 }
 
+a.typeform-share.button {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #13ce67;
+  color:white;
+  cursor:pointer;
+  font-family:Helvetica,Arial,sans-serif;
+  font-size:20px;
+  line-height:50px;
+  text-align:center;
+  margin:0;
+  height:50px;
+  padding:0px 33px;
+  border-radius:25px;
+  max-width:100%;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  font-weight:bold;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
 /*==========================
         8.SERVICES
 ============================*/
